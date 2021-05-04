@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>3ca5f6c9-24e3-4b0f-a1ff-4a04b3d91e2a</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Runtime Files Win32">
+      <UniqueIdentifier>3ac2ec34-1028-4630-8770-a4fbf19213e0</UniqueIdentifier>
+      <Extensions>dll</Extensions>
+    </Filter>
+    <Filter Include="Runtime Files x64">
+      <UniqueIdentifier>cf65b186-9a37-455a-bc40-4a2a1609815e</UniqueIdentifier>
+      <Extensions>dll</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pdf2pdfsign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ContentWithTargetPath Include="..\..\..\bin\Win32\Pdf2PdfAPI.dll">
+      <Filter>Runtime Files Win32</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\Win32\pdfocrpluginAbbyy10.ocr">
+      <Filter>Runtime Files Win32</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\Win32\pdfocrpluginAbbyy11.ocr">
+      <Filter>Runtime Files Win32</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\Win32\pdfocrpluginAbbyy12.ocr">
+      <Filter>Runtime Files Win32</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\Win32\pdfocrpluginService.ocr">
+      <Filter>Runtime Files Win32</Filter>
+    </ContentWithTargetPath>
+
+    <ContentWithTargetPath Include="..\..\..\bin\x64\Pdf2PdfAPI.dll">
+      <Filter>Runtime Files x64</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\x64\pdfocrpluginAbbyy11.ocr">
+      <Filter>Runtime Files x64</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\x64\pdfocrpluginAbbyy12.ocr">
+      <Filter>Runtime Files x64</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\..\..\bin\x64\pdfocrpluginService.ocr">
+      <Filter>Runtime Files x64</Filter>
+    </ContentWithTargetPath>
+
+  </ItemGroup>
+</Project>
